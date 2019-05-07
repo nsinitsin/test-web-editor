@@ -1,0 +1,9 @@
+Backend/packages/
+Backend/.vs/
+**/.idea/
+Backend/.vscode/
+Backend/node_modules/\nbower_components/
+**/bin
+**/obj
+**.user
+**/publish

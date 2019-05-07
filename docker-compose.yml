@@ -1,0 +1,12 @@
+version: "3"
+services:
+    api:
+        build: ./Backend/Archangel.Tests.WebEditor/
+        ports:
+            - "5001:80"
+    app:
+        build: ./Frontend/news-editor/
+        ports:
+            - "5003:80"
+        depends_on:
+            - api

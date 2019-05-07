@@ -1,0 +1,18 @@
+@import '../../style/variables';
+
+.news {
+
+  &__draft-live-news {
+    display: flex;
+    align-items: first;
+
+    &-draft {
+      display: inline-block;
+    }
+
+    &-live {
+      margin-left: $spacing-default;
+      display: inline-block;
+    }
+  }
+}

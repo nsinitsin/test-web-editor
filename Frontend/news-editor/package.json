@@ -1,0 +1,47 @@
+{
+  "name": "react-first-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material/react-drawer": "^0.11.0",
+    "@types/react-draft-wysiwyg": "^1.12.2",
+    "@types/whatwg-fetch": "0.0.33",
+    "draft-js": "^0.10.5",
+    "draftjs-to-html": "^0.8.4",
+    "html-to-draftjs": "^1.4.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "throttle-debounce": "^2.1.0",
+    "ts-debounce": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router": "^4.4.5",
+    "@types/react-router-dom": "^4.3.2",
+    "node-sass": "^4.11.0",
+    "typescript": "^3.4.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

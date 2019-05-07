@@ -1,0 +1,20 @@
+// Border Radius
+// --------------------------------------------------
+@mixin border-radius($color: null, $radius: 4px, $isDotted: false) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+  @if ($color) {
+    //color could be null
+    border: 1px solid $color;
+
+}
+@if ($isDotted) {
+  border-style: dotted;
+
+}
+
+background-clip: padding-box;
+/* stops bg color from leaking outside the border: */
+}

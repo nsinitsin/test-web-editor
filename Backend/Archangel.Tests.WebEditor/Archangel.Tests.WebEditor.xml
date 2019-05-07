@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Archangel.Tests.WebEditor</name>
+    </assembly>
+    <members>
+        <member name="M:Archangel.Tests.WebEditor.Controllers.ValuesController.Get">
+            <summary>
+            Test
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

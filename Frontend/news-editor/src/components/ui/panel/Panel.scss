@@ -1,0 +1,33 @@
+@import '../../../style/variables';
+@import '../../../style/mixin/border-radius.scss';
+@import '../../../style/mixin/box-shadow.scss';
+
+.content-panel {
+  @include border-radius(null);
+  @include box-shadow($box-shadow);
+  background-color: $white;
+  padding: $spacing-default;
+  margin-bottom: $spacing-default;
+
+  &--dotted {
+    @include border-radius($cool-grey, 4px, true);
+  }
+
+  &--noborder {
+    border: none;
+  }
+
+  &--clear {
+    background-color: transparent;
+  }
+
+  &-title{
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: $blue;
+    font-size: $font-size-large;
+    font-family: 'Roboto Slab';
+    margin: 0 0 15px 0;
+  }
+}
